@@ -1,3 +1,0 @@
-C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\PrimeChecker.dir/objects.a
-C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\PrimeChecker.dir/objects.a @CMakeFiles\PrimeChecker.dir\objects1.rsp
-C:\Qt\Tools\mingw1310_64\bin\g++.exe -DQT_QML_DEBUG -g -mwindows -Wl,--whole-archive CMakeFiles\PrimeChecker.dir/objects.a -Wl,--no-whole-archive -o PrimeChecker.exe -Wl,--out-implib,libPrimeChecker.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PrimeChecker.dir\linkLibs.rsp

@@ -1,0 +1,5 @@
+D:/cpp_gyakorlas/PrimeChecker/build/CMakeFiles/PrimeChecker.dir
+D:/cpp_gyakorlas/PrimeChecker/build/CMakeFiles/edit_cache.dir
+D:/cpp_gyakorlas/PrimeChecker/build/CMakeFiles/rebuild_cache.dir
+D:/cpp_gyakorlas/PrimeChecker/build/CMakeFiles/PrimeChecker_autogen_timestamp_deps.dir
+D:/cpp_gyakorlas/PrimeChecker/build/CMakeFiles/PrimeChecker_autogen.dir

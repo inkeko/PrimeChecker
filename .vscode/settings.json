@@ -1,7 +1,12 @@
 {
+
   "cmake.buildDirectory": "${workspaceFolder}/build",
   "cmake.configureSettings": {
-    "CMAKE_EXPORT_COMPILE_COMMANDS": "ON"
-  },
-  "cmake.generator": "MinGW Makefiles"
+    "CMAKE_EXPORT_COMPILE_COMMANDS": "ON",
+    "CMAKE_PREFIX_PATH": "C:/Qt/6.10.0/mingw_64"
+},
+  "cmake.generator": "MinGW Makefiles",
+  
 }
+
+
