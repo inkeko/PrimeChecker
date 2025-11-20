@@ -5,7 +5,7 @@
       "name": "Launch Qt GUI App",
       "type": "cppdbg",
       "request": "launch",
-      "program": "${workspaceFolder}/build/Proba2.exe",
+      "program": "${workspaceFolder}/build/PrimeChecker.exe",
       "args": [],
       "stopAtEntry": false,
       "cwd": "${workspaceFolder}",

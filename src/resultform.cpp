@@ -1,5 +1,5 @@
 #include "resultform.h"
-#include "ui_resultform.h"
+#include "ui/ui_resultform.h"
 
 ResultForm::ResultForm(QWidget *parent)
     : QWidget(parent)
