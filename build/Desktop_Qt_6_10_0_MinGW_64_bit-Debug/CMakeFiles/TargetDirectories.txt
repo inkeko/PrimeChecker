@@ -1,0 +1,9 @@
+D:/cpp_gyakorlas/PrimeChecker/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/PrimeChecker.dir
+D:/cpp_gyakorlas/PrimeChecker/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/cpp_gyakorlas/PrimeChecker/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/cpp_gyakorlas/PrimeChecker/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/cpp_gyakorlas/PrimeChecker/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/cpp_gyakorlas/PrimeChecker/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/cpp_gyakorlas/PrimeChecker/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/cpp_gyakorlas/PrimeChecker/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/PrimeChecker_autogen_timestamp_deps.dir
+D:/cpp_gyakorlas/PrimeChecker/build/Desktop_Qt_6_10_0_MinGW_64_bit-Debug/CMakeFiles/PrimeChecker_autogen.dir
