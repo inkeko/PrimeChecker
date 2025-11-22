@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\PrimeChecker.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\PrimeChecker.dir/objects.a @CMakeFiles\PrimeChecker.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\PrimeChecker.dir/objects.a -Wl,--no-whole-archive -o PrimeChecker.exe -Wl,--out-implib,libPrimeChecker.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PrimeChecker.dir\linkLibs.rsp
