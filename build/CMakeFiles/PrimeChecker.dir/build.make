@@ -68,6 +68,13 @@ include CMakeFiles/PrimeChecker.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/PrimeChecker.dir/flags.make
 
+PrimeChecker_autogen/timestamp: C:/Qt/6.10.0/mingw_64/bin/moc.exe
+PrimeChecker_autogen/timestamp: C:/Qt/6.10.0/mingw_64/bin/uic.exe
+PrimeChecker_autogen/timestamp: CMakeFiles/PrimeChecker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\cpp_gyakorlas\PrimeChecker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target PrimeChecker"
+	"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/cpp_gyakorlas/PrimeChecker/build/CMakeFiles/PrimeChecker_autogen.dir/AutogenInfo.json Debug
+	"C:\Program Files\CMake\bin\cmake.exe" -E touch D:/cpp_gyakorlas/PrimeChecker/build/PrimeChecker_autogen/timestamp
+
 CMakeFiles/PrimeChecker.dir/codegen:
 .PHONY : CMakeFiles/PrimeChecker.dir/codegen
 
@@ -75,7 +82,7 @@ CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.obj: CMake
 CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.obj: CMakeFiles/PrimeChecker.dir/includes_CXX.rsp
 CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.obj: PrimeChecker_autogen/mocs_compilation.cpp
 CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.obj: CMakeFiles/PrimeChecker.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cpp_gyakorlas\PrimeChecker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cpp_gyakorlas\PrimeChecker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\PrimeChecker.dir\PrimeChecker_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\PrimeChecker.dir\PrimeChecker_autogen\mocs_compilation.cpp.obj -c D:\cpp_gyakorlas\PrimeChecker\build\PrimeChecker_autogen\mocs_compilation.cpp
 
 CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.i: cmake_force
@@ -86,20 +93,90 @@ CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.s: cmake_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp_gyakorlas\PrimeChecker\build\PrimeChecker_autogen\mocs_compilation.cpp -o CMakeFiles\PrimeChecker.dir\PrimeChecker_autogen\mocs_compilation.cpp.s
 
+CMakeFiles/PrimeChecker.dir/main.cpp.obj: CMakeFiles/PrimeChecker.dir/flags.make
+CMakeFiles/PrimeChecker.dir/main.cpp.obj: CMakeFiles/PrimeChecker.dir/includes_CXX.rsp
+CMakeFiles/PrimeChecker.dir/main.cpp.obj: D:/cpp_gyakorlas/PrimeChecker/main.cpp
+CMakeFiles/PrimeChecker.dir/main.cpp.obj: CMakeFiles/PrimeChecker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cpp_gyakorlas\PrimeChecker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PrimeChecker.dir/main.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PrimeChecker.dir/main.cpp.obj -MF CMakeFiles\PrimeChecker.dir\main.cpp.obj.d -o CMakeFiles\PrimeChecker.dir\main.cpp.obj -c D:\cpp_gyakorlas\PrimeChecker\main.cpp
+
+CMakeFiles/PrimeChecker.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PrimeChecker.dir/main.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp_gyakorlas\PrimeChecker\main.cpp > CMakeFiles\PrimeChecker.dir\main.cpp.i
+
+CMakeFiles/PrimeChecker.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PrimeChecker.dir/main.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp_gyakorlas\PrimeChecker\main.cpp -o CMakeFiles\PrimeChecker.dir\main.cpp.s
+
+CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.obj: CMakeFiles/PrimeChecker.dir/flags.make
+CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.obj: CMakeFiles/PrimeChecker.dir/includes_CXX.rsp
+CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.obj: D:/cpp_gyakorlas/PrimeChecker/src/mainwindow.cpp
+CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.obj: CMakeFiles/PrimeChecker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cpp_gyakorlas\PrimeChecker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.obj -MF CMakeFiles\PrimeChecker.dir\src\mainwindow.cpp.obj.d -o CMakeFiles\PrimeChecker.dir\src\mainwindow.cpp.obj -c D:\cpp_gyakorlas\PrimeChecker\src\mainwindow.cpp
+
+CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp_gyakorlas\PrimeChecker\src\mainwindow.cpp > CMakeFiles\PrimeChecker.dir\src\mainwindow.cpp.i
+
+CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp_gyakorlas\PrimeChecker\src\mainwindow.cpp -o CMakeFiles\PrimeChecker.dir\src\mainwindow.cpp.s
+
+CMakeFiles/PrimeChecker.dir/src/resultform.cpp.obj: CMakeFiles/PrimeChecker.dir/flags.make
+CMakeFiles/PrimeChecker.dir/src/resultform.cpp.obj: CMakeFiles/PrimeChecker.dir/includes_CXX.rsp
+CMakeFiles/PrimeChecker.dir/src/resultform.cpp.obj: D:/cpp_gyakorlas/PrimeChecker/src/resultform.cpp
+CMakeFiles/PrimeChecker.dir/src/resultform.cpp.obj: CMakeFiles/PrimeChecker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cpp_gyakorlas\PrimeChecker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/PrimeChecker.dir/src/resultform.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PrimeChecker.dir/src/resultform.cpp.obj -MF CMakeFiles\PrimeChecker.dir\src\resultform.cpp.obj.d -o CMakeFiles\PrimeChecker.dir\src\resultform.cpp.obj -c D:\cpp_gyakorlas\PrimeChecker\src\resultform.cpp
+
+CMakeFiles/PrimeChecker.dir/src/resultform.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PrimeChecker.dir/src/resultform.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp_gyakorlas\PrimeChecker\src\resultform.cpp > CMakeFiles\PrimeChecker.dir\src\resultform.cpp.i
+
+CMakeFiles/PrimeChecker.dir/src/resultform.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PrimeChecker.dir/src/resultform.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp_gyakorlas\PrimeChecker\src\resultform.cpp -o CMakeFiles\PrimeChecker.dir\src\resultform.cpp.s
+
+CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.obj: CMakeFiles/PrimeChecker.dir/flags.make
+CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.obj: CMakeFiles/PrimeChecker.dir/includes_CXX.rsp
+CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.obj: D:/cpp_gyakorlas/PrimeChecker/src/primechecker.cpp
+CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.obj: CMakeFiles/PrimeChecker.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\cpp_gyakorlas\PrimeChecker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.obj -MF CMakeFiles\PrimeChecker.dir\src\primechecker.cpp.obj.d -o CMakeFiles\PrimeChecker.dir\src\primechecker.cpp.obj -c D:\cpp_gyakorlas\PrimeChecker\src\primechecker.cpp
+
+CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\cpp_gyakorlas\PrimeChecker\src\primechecker.cpp > CMakeFiles\PrimeChecker.dir\src\primechecker.cpp.i
+
+CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\cpp_gyakorlas\PrimeChecker\src\primechecker.cpp -o CMakeFiles\PrimeChecker.dir\src\primechecker.cpp.s
+
 # Object files for target PrimeChecker
 PrimeChecker_OBJECTS = \
-"CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.obj"
+"CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.obj" \
+"CMakeFiles/PrimeChecker.dir/main.cpp.obj" \
+"CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.obj" \
+"CMakeFiles/PrimeChecker.dir/src/resultform.cpp.obj" \
+"CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.obj"
 
 # External object files for target PrimeChecker
 PrimeChecker_EXTERNAL_OBJECTS =
 
 PrimeChecker.exe: CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.obj
+PrimeChecker.exe: CMakeFiles/PrimeChecker.dir/main.cpp.obj
+PrimeChecker.exe: CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.obj
+PrimeChecker.exe: CMakeFiles/PrimeChecker.dir/src/resultform.cpp.obj
+PrimeChecker.exe: CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.obj
 PrimeChecker.exe: CMakeFiles/PrimeChecker.dir/build.make
+PrimeChecker.exe: C:/Qt/6.10.0/mingw_64/lib/libQt6Widgets.a
+PrimeChecker.exe: C:/Qt/6.10.0/mingw_64/lib/libQt6Gui.a
 PrimeChecker.exe: C:/Qt/6.10.0/mingw_64/lib/libQt6Core.a
 PrimeChecker.exe: CMakeFiles/PrimeChecker.dir/linkLibs.rsp
 PrimeChecker.exe: CMakeFiles/PrimeChecker.dir/objects1.rsp
 PrimeChecker.exe: CMakeFiles/PrimeChecker.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\cpp_gyakorlas\PrimeChecker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable PrimeChecker.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\cpp_gyakorlas\PrimeChecker\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable PrimeChecker.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\PrimeChecker.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -110,7 +187,7 @@ CMakeFiles/PrimeChecker.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles\PrimeChecker.dir\cmake_clean.cmake
 .PHONY : CMakeFiles/PrimeChecker.dir/clean
 
-CMakeFiles/PrimeChecker.dir/depend:
+CMakeFiles/PrimeChecker.dir/depend: PrimeChecker_autogen/timestamp
 	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\cpp_gyakorlas\PrimeChecker D:\cpp_gyakorlas\PrimeChecker D:\cpp_gyakorlas\PrimeChecker\build D:\cpp_gyakorlas\PrimeChecker\build D:\cpp_gyakorlas\PrimeChecker\build\CMakeFiles\PrimeChecker.dir\DependInfo.cmake "--color=$(COLOR)" PrimeChecker
 .PHONY : CMakeFiles/PrimeChecker.dir/depend
 

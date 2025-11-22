@@ -178,6 +178,102 @@ PrimeChecker_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimeChecker.dir\build.make CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.s
 .PHONY : PrimeChecker_autogen/mocs_compilation.cpp.s
 
+main.obj: main.cpp.obj
+.PHONY : main.obj
+
+# target to build an object file
+main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimeChecker.dir\build.make CMakeFiles/PrimeChecker.dir/main.cpp.obj
+.PHONY : main.cpp.obj
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimeChecker.dir\build.make CMakeFiles/PrimeChecker.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimeChecker.dir\build.make CMakeFiles/PrimeChecker.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+src/mainwindow.obj: src/mainwindow.cpp.obj
+.PHONY : src/mainwindow.obj
+
+# target to build an object file
+src/mainwindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimeChecker.dir\build.make CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.obj
+.PHONY : src/mainwindow.cpp.obj
+
+src/mainwindow.i: src/mainwindow.cpp.i
+.PHONY : src/mainwindow.i
+
+# target to preprocess a source file
+src/mainwindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimeChecker.dir\build.make CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.i
+.PHONY : src/mainwindow.cpp.i
+
+src/mainwindow.s: src/mainwindow.cpp.s
+.PHONY : src/mainwindow.s
+
+# target to generate assembly for a file
+src/mainwindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimeChecker.dir\build.make CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.s
+.PHONY : src/mainwindow.cpp.s
+
+src/primechecker.obj: src/primechecker.cpp.obj
+.PHONY : src/primechecker.obj
+
+# target to build an object file
+src/primechecker.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimeChecker.dir\build.make CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.obj
+.PHONY : src/primechecker.cpp.obj
+
+src/primechecker.i: src/primechecker.cpp.i
+.PHONY : src/primechecker.i
+
+# target to preprocess a source file
+src/primechecker.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimeChecker.dir\build.make CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.i
+.PHONY : src/primechecker.cpp.i
+
+src/primechecker.s: src/primechecker.cpp.s
+.PHONY : src/primechecker.s
+
+# target to generate assembly for a file
+src/primechecker.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimeChecker.dir\build.make CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.s
+.PHONY : src/primechecker.cpp.s
+
+src/resultform.obj: src/resultform.cpp.obj
+.PHONY : src/resultform.obj
+
+# target to build an object file
+src/resultform.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimeChecker.dir\build.make CMakeFiles/PrimeChecker.dir/src/resultform.cpp.obj
+.PHONY : src/resultform.cpp.obj
+
+src/resultform.i: src/resultform.cpp.i
+.PHONY : src/resultform.i
+
+# target to preprocess a source file
+src/resultform.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimeChecker.dir\build.make CMakeFiles/PrimeChecker.dir/src/resultform.cpp.i
+.PHONY : src/resultform.cpp.i
+
+src/resultform.s: src/resultform.cpp.s
+.PHONY : src/resultform.s
+
+# target to generate assembly for a file
+src/resultform.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PrimeChecker.dir\build.make CMakeFiles/PrimeChecker.dir/src/resultform.cpp.s
+.PHONY : src/resultform.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -192,6 +288,18 @@ help:
 	@echo ... PrimeChecker_autogen/mocs_compilation.obj
 	@echo ... PrimeChecker_autogen/mocs_compilation.i
 	@echo ... PrimeChecker_autogen/mocs_compilation.s
+	@echo ... main.obj
+	@echo ... main.i
+	@echo ... main.s
+	@echo ... src/mainwindow.obj
+	@echo ... src/mainwindow.i
+	@echo ... src/mainwindow.s
+	@echo ... src/primechecker.obj
+	@echo ... src/primechecker.i
+	@echo ... src/primechecker.s
+	@echo ... src/resultform.obj
+	@echo ... src/resultform.i
+	@echo ... src/resultform.s
 .PHONY : help
 
 

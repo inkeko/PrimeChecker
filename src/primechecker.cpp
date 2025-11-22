@@ -1,4 +1,4 @@
-#include "primchecker.h"
+#include "ui_primchecker.h"
 
 bool PrimeChecker::isPrime(int n) {
     if (n < 2) return false;

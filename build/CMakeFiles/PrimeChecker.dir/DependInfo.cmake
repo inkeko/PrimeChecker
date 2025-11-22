@@ -8,7 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "" "PrimeChecker_autogen/timestamp" "custom" "PrimeChecker_autogen/deps"
   "D:/cpp_gyakorlas/PrimeChecker/build/PrimeChecker_autogen/mocs_compilation.cpp" "CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/PrimeChecker.dir/PrimeChecker_autogen/mocs_compilation.cpp.obj.d"
+  "D:/cpp_gyakorlas/PrimeChecker/main.cpp" "CMakeFiles/PrimeChecker.dir/main.cpp.obj" "gcc" "CMakeFiles/PrimeChecker.dir/main.cpp.obj.d"
+  "D:/cpp_gyakorlas/PrimeChecker/src/mainwindow.cpp" "CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.obj" "gcc" "CMakeFiles/PrimeChecker.dir/src/mainwindow.cpp.obj.d"
+  "D:/cpp_gyakorlas/PrimeChecker/src/primechecker.cpp" "CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.obj" "gcc" "CMakeFiles/PrimeChecker.dir/src/primechecker.cpp.obj.d"
+  "D:/cpp_gyakorlas/PrimeChecker/src/resultform.cpp" "CMakeFiles/PrimeChecker.dir/src/resultform.cpp.obj" "gcc" "CMakeFiles/PrimeChecker.dir/src/resultform.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
